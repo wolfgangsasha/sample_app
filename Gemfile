@@ -8,6 +8,8 @@ gem 'rails', '3.0.7'
 gem 'sqlite3-ruby', '1.3.3', :require => 'sqlite3'
 gem 'gravatar_image_tag', '0.1.0'
 gem 'mongrel'
+gem 'rake', '~> 0.8.7'
+gem 'will_paginate', '3.0.pre2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -30,6 +32,7 @@ gem 'mongrel'
 group :development do
   gem 'rspec-rails', '2.5.0'
   gem 'annotate-models', '1.0.4'
+  gem 'faker', '0.3.1'
 end
 
 group :test do
